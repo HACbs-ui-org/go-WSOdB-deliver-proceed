@@ -26,7 +26,7 @@ spec:
         app.kubernetes.io/instance: go-net-http-hello-ktfs
     spec:
       containers:
-      - image: go-image:latest
+      - image: quay.io/stonesoupuicluster/burrzinga-hac-tenant/go/go-net-http-hello-ktfs@sha256:e05b9c13a4d93049550617a3c44e88a5915f39bae4e0bf393fb89dca0ce50d6e
         name: my-go
         ports:
         - containerPort: 8081
